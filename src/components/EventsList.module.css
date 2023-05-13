@@ -1,0 +1,43 @@
+.events {
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 5rem;
+}
+
+.item a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  background-color: var(--color-gray-200);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.item a:hover {
+  transform: scale(1.02);
+  background-color: var(--color-gray-100);
+}
+
+.item img {
+  width: 33%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.content {
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-left: 3rem;
+}
+.item h2 {
+  color: rgb(6, 41, 69);
+}
+.item time {
+  color: rgb(6, 41, 69);
+}

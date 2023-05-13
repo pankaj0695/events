@@ -1,0 +1,55 @@
+.event {
+  max-width: 50rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.event img {
+  width: 30rem;
+  border-radius: 4px;
+}
+
+.event p {
+  font-size: 20px;
+  word-spacing: 2px;
+  line-height: 28px;
+  margin-top: 3rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 8rem;
+}
+
+.actions a,
+.actions button {
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+}
+
+.actions .edit {
+  color: var(--color-primary-800);
+}
+
+.actions .delete {
+  color: red;
+}
+
+.actions .edit:hover {
+  color: rgb(212, 141, 0);
+}
+
+.actions .delete:hover {
+  color: rgb(195, 46, 1);
+}
